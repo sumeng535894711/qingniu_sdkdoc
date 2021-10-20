@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>QNScaleItemData · GitBook</title>
+        <title>QNWiFiConfig · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -65,8 +65,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="QNWspConfig.html" />
     
-    <link rel="prev" href="QNScaleStoreData.html" />
+    
+    <link rel="prev" href="QNConfig.html" />
     
 
     </head>
@@ -511,7 +513,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.13" data-path="QNWiFiConfig.html">
+        <li class="chapter active" data-level="1.5.13" data-path="QNWiFiConfig.html">
             
                 <a href="QNWiFiConfig.html">
             
@@ -589,7 +591,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.5.19" data-path="QNScaleItemData.html">
+        <li class="chapter " data-level="1.5.19" data-path="QNScaleItemData.html">
             
                 <a href="QNScaleItemData.html">
             
@@ -786,7 +788,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >QNScaleItemData</a>
+        <a href=".." >QNWiFiConfig</a>
     </h1>
 </div>
 
@@ -801,9 +803,9 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="qnscaleitemdata">QNScaleItemData</h1>
-<p>Yolanda&#x4F53;&#x8102;&#x79F0;&#x5355;&#x4E2A;&#x6307;&#x6807;&#x5BF9;&#x8C61;&#xFF0C;&#x5305;&#x542B;&#x4E86;&#x8BE5;&#x6307;&#x6807;&#x751F;&#x6210;&#x62A5;&#x544A;&#x7684;&#x57FA;&#x672C;&#x6570;&#x636E;&#x3002;</p>
-<h2 id="&#x5C5E;&#x6027;">&#x5C5E;&#x6027;</h2>
+                                <h1 id="qnwificonfig">QNWiFiConfig</h1>
+<p>WiFi&#x4FE1;&#x606F;&#x7C7B;</p>
+<h3 id="&#x5C5E;&#x6027;">&#x5C5E;&#x6027;</h3>
 <table>
 <thead>
 <tr>
@@ -814,27 +816,31 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">type</td>
-<td style="text-align:left">int</td>
-<td style="text-align:left">&#x8BE5;&#x6307;&#x6807;&#x7684;&#x7C7B;&#x578B;&#xFF0C;&#x5177;&#x4F53;&#x53C2;&#x8003;&#x9644;&#x8868;</td>
-</tr>
-<tr>
-<td style="text-align:left">value</td>
-<td style="text-align:left">double</td>
-<td style="text-align:left">&#x8BE5;&#x6307;&#x6807;&#x7684;&#x503C;&#xFF0C;&#x4E3A;&#x4E86;&#x901A;&#x7528;&#xFF0C;&#x8BE5;&#x5B57;&#x6BB5;&#x4F1A;&#x76F4;&#x63A5;&#x8FD4;&#x56DE;double&#xFF0C;&#x5982;&#x679C;&#x8BE5;&#x9879;&#x503C;&#x662F;int&#x7C7B;&#x578B;&#xFF0C;app&#x9700;&#x8981;&#x81EA;&#x5DF1;&#x5224;&#x65AD;&#x7C7B;&#x578B;&#x7136;&#x540E;&#x8F6C;&#x5316;</td>
-</tr>
-<tr>
-<td style="text-align:left">valueType</td>
-<td style="text-align:left">int</td>
-<td style="text-align:left">&#x6307;&#x6807;&#x503C;&#x7684;&#x7C7B;&#x578B;&#xFF0C;0 &#x4E3A; double&#xFF0C;1 &#x4E3A; int</td>
-</tr>
-<tr>
-<td style="text-align:left">name</td>
+<td style="text-align:left">ssid</td>
 <td style="text-align:left">String</td>
-<td style="text-align:left">&#x8BE5;&#x6307;&#x6807;&#x7684;&#x540D;&#x79F0;&#xFF0C;&#x5168;&#x90E8;&#x4E3A;&#x82F1;&#x6587;&#x540D;&#x79F0;&#xFF0C;&#x63D0;&#x4F9B;&#x9644;&#x8868;&#x8F6C;&#x5316;&#x4E2D;&#x6587;&#x540D;&#x79F0;</td>
+<td style="text-align:left">wifi&#x540D;&#x79F0;(&#x957F;&#x5EA6;&#x5FC5;&#x987B;&#x5C11;&#x4E8E;32&#x4E2A;&#x5B57;&#x8282;)</td>
+</tr>
+<tr>
+<td style="text-align:left">pwd</td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">wifi&#x5BC6;&#x7801;(&#x6709;&#x5BC6;&#x7801;&#x65F6;&#xFF0C;&#x5BC6;&#x7801;&#x957F;&#x5EA6;&#x5FC5;&#x987B;&#x5927;&#x4E8E;&#x6216;&#x7B49;&#x4E8E;8&#x4E2A;&#x5B57;&#x8282;&#x4E14;&#x5C0F;&#x4E8E;64&#x4E2A;&#x5B57;&#x8282;<br>&#x65E0;&#x5BC6;&#x7801;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x4F20;nil)</td>
+</tr>
+<tr>
+<td style="text-align:left">serveUrl</td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">&#x6570;&#x636E;&#x4F20;&#x8F93;&#x5730;&#x5740;&#xFF0C;<code>WSP&#x8BBE;&#x5907;&#x8BBE;&#x7F6E;&#x6709;&#x6548;</code>&#xFF0C;<code>&#x5176;&#x4ED6;&#x8BBE;&#x5907;&#x53EF;&#x8BBE;&#x4E3A; null</code>&#xFF0C;&#x683C;&#x5F0F;&#x8981;&#x6C42;<a href="http://hostname:port/path/" target="_blank">http://hostname:port/path/</a>, &#x6700;&#x5927;&#x957F;&#x5EA6;&#x4E3A; 128 &#x4E2A;&#x5B57;&#x8282;</td>
 </tr>
 </tbody>
 </table>
+<h2 id="&#x65B9;&#x6CD5;">&#x65B9;&#x6CD5;</h2>
+<h3 id="checkssidvail">checkSSIDVail</h3>
+<p>&#x68C0;&#x9A8C;WiFi&#x540D;&#x79F0;&#x7684;&#x6709;&#x6548;&#x6027;</p>
+<h4 id="&#x8FD4;&#x56DE;&#x503C;">&#x8FD4;&#x56DE;&#x503C;</h4>
+<p>&#x7C7B;&#x578B;&#xFF1A;Boolean</p>
+<h3 id="checkpwdvail">checkPWDVail</h3>
+<p>&#x68C0;&#x9A8C;WiFi&#x5BC6;&#x7801;&#x7684;&#x6709;&#x6548;&#x6027;</p>
+<h4 id="&#x8FD4;&#x56DE;&#x503C;">&#x8FD4;&#x56DE;&#x503C;</h4>
+<p>&#x7C7B;&#x578B;&#xFF1A;Boolean</p>
 
                                 
                                 </section>
@@ -862,10 +868,14 @@
 
             
                 
-                <a href="QNScaleStoreData.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: QNScaleStoreData">
+                <a href="QNConfig.html" class="navigation navigation-prev " aria-label="Previous page: QNConfig">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="QNWspConfig.html" class="navigation navigation-next " aria-label="Next page: QNWspConfig">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -874,7 +884,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"QNScaleItemData","level":"1.5.19","depth":2,"next":{"title":"附表","level":"1.6","depth":1,"ref":"","articles":[{"title":"常见问题","level":"1.6.1","depth":2,"path":"attouched_list/faq.md","ref":"attouched_list/faq.md","articles":[]},{"title":"身体指标常量","level":"1.6.2","depth":2,"path":"attouched_list/body_indexes.md","ref":"attouched_list/body_indexes.md","articles":[]},{"title":"设备类型","level":"1.6.3","depth":2,"path":"attouched_list/device_type.md","ref":"attouched_list/device_type.md","articles":[]},{"title":"体型对照表","level":"1.6.4","depth":2,"path":"attouched_list/body_shape.md","ref":"attouched_list/body_shape.md","articles":[]},{"title":"错误码","level":"1.6.5","depth":2,"path":"attouched_list/error_code.md","ref":"attouched_list/error_code.md","articles":[]},{"title":"扫描错误码","level":"1.6.6","depth":2,"path":"attouched_list/scan_error.md","ref":"attouched_list/scan_error.md","articles":[]},{"title":"秤状态定义","level":"1.6.7","depth":2,"path":"attouched_list/scale_state.md","ref":"attouched_list/scale_state.md","articles":[]},{"title":"秤事件定义","level":"1.6.8","depth":2,"path":"attouched_list/scale_event.md","ref":"attouched_list/scale_event.md","articles":[]},{"title":"测试用例","level":"1.6.9","depth":2,"path":"attouched_list/test_list.md","ref":"attouched_list/test_list.md","articles":[]},{"title":"更新日志","level":"1.6.10","depth":2,"path":"history/history.md","ref":"history/history.md","articles":[]}]},"previous":{"title":"QNScaleStoreData","level":"1.5.18","depth":2,"path":"api/QNScaleStoreData.md","ref":"api/QNScaleStoreData.md","articles":[]},"dir":"ltr"},"config":{"plugins":["mermaid-gb3"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"mermaid-gb3":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"zh","gitbook":"*"},"file":{"path":"api/QNScaleItemData.md","mtime":"2021-07-15T08:19:18.392Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-10-20T07:20:55.442Z"},"basePath":"..","book":{"language":"zh"}});
+            gitbook.page.hasChanged({"page":{"title":"QNWiFiConfig","level":"1.5.13","depth":2,"next":{"title":"QNWspConfig","level":"1.5.14","depth":2,"path":"api/QNWspConfig.md","ref":"api/QNWspConfig.md","articles":[]},"previous":{"title":"QNConfig","level":"1.5.12","depth":2,"path":"api/QNConfig.md","ref":"api/QNConfig.md","articles":[]},"dir":"ltr"},"config":{"plugins":["mermaid-gb3"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"mermaid-gb3":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"zh","gitbook":"*"},"file":{"path":"api/QNWiFiConfig.md","mtime":"2021-10-20T07:17:02.393Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-10-20T07:20:55.442Z"},"basePath":"..","book":{"language":"zh"}});
         });
     </script>
 </div>
